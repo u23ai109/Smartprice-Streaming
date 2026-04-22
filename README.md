@@ -69,6 +69,7 @@ project_smartprice/
 1. Start Kafka
 
 bin/zookeeper-server-start.sh config/zookeeper.properties
+
 bin/kafka-server-start.sh config/server.properties
 
 ---
@@ -153,8 +154,11 @@ Successfully built an end-to-end real-time ML pipeline that:
 👨‍💻 Author
 
 Teja Swaroop
+
 Sandeep
+
 Raj Kumar
+
 ---
 
 ⭐ If you like this project, give it a star!
