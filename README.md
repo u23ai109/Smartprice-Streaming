@@ -51,17 +51,14 @@ hdfs:///project/m5_model
 
 ---
 
-📂 Project Structure
+### 📂 Project Structure
 
-tree project_smartprice/
-      │
-      ├── phase1/        # Batch training (model training)
-      ├── phase2/        # Kafka + Spark streaming
-      ├── phase3/        # Feature engineering
-      ├── phase4/        # Model integration + predictions
-      │
-      └── README.md
-
+```text
+project_smartprice/
+├── phase1/             # Dataset Preprocessing + Feature engineering + Batch training (model training)
+├── phase2/             # Kafka + Spark streaming + Model integration + predictions
+└── README.md
+```
 ---
 
 🔄 Workflow
