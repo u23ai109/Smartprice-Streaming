@@ -55,9 +55,17 @@ hdfs:///project/m5_model
 
 ```text
 project_smartprice/
-├── phase1/             # Dataset Preprocessing + Feature engineering + Batch training (model training)
-├── phase2/             # Kafka + Spark streaming + Model integration + predictions
-└── README.md
+│
+├── phase1/                         # Batch Training (Model Development)
+│   ├── 1_m5_long.py                # Convert M5 dataset to long format
+│   ├── 2_features.py               # Feature engineering (lags, rolling avg)
+│   └── 3_train_model.py            # Train GBTRegressor model
+│
+├── phase2/                         # Real-Time Streaming Pipeline
+│   ├── producer_bot.py             # Kafka producer (simulates live sales data)
+│   └── spark_stream.py             # Spark Structured Streaming + predictions
+│
+└── README.md                       # Main project documentation
 ```
 ---
 
