@@ -4,7 +4,7 @@
 
 SmartPrice is a real-time data engineering + machine learning pipeline that predicts product demand dynamically using streaming data.
 
-The system simulates live sales data, processes it using Apache Spark Structured Streaming, applies feature engineering (lag-based), and uses a trained ML model to generate real-time demand predictions.
+The system simulates live sales data, processes it using Apache Spark Structured Streaming, applies feature engineering (lag-based), and uses a  trained ML model to generate real-time demand predictions.
 
 ---
 
